@@ -24,4 +24,8 @@ import (
 
 func main() {
 	fmt.Println(stringutil.Reverse("!selpmaxe oG ,olleH"))
+	var str = "hello go语言"
+	fmt.Printf("str len is %d \r\n", len(str))
+	fmt.Println("str len is :", len([]rune(str)))
+
 }
